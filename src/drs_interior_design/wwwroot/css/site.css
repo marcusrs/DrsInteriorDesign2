@@ -36,3 +36,11 @@ textarea {
     display: none
   }
 }
+
+/*  jumbotron heading*/
+
+#dr {
+
+    background-image:url("../images/dana3.jpg");
+    background-size: cover;
+}
