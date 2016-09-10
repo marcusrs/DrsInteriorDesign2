@@ -15,9 +15,39 @@ namespace drs_interior_design.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Here is How it Works.";
+            ViewData["Message"] = "";
 
             return View();
+        }
+
+
+        public IActionResult Wedding()
+        {
+
+            ViewData["Message"] = "How it Works";
+
+            return View();
+        }
+
+
+        public IActionResult Home()
+        {
+
+            ViewData["Message"] = "How it Works";
+
+            return View();
+
+        }
+
+
+
+        public IActionResult Corporate()
+        {
+
+            ViewData["Message"] = "How it Works";
+
+            return View();
+
         }
 
         public IActionResult Contact()
