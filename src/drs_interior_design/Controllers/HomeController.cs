@@ -15,14 +15,14 @@ namespace drs_interior_design.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Here is How it Works.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Lets Set up an Appointment.";
 
             return View();
         }
