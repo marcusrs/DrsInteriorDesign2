@@ -29,7 +29,7 @@
 }
 
 #sub {
-	color:crimson;
+	color:aqua;
 	font-size:1.5em;
 }
 
@@ -52,6 +52,23 @@ input,
 select,
 textarea {
 	max-width: 280px;
+}
+
+
+							  /* About page */
+
+#overview{
+
+	background-color:whitesmoke;
+	opacity:0.9;
+
+}
+
+#tablist{
+
+    margin-bottom:40px;
+    margin-top:20px;
+
 }
 
 
