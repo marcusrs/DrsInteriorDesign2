@@ -6,6 +6,7 @@
                 <i class="material-icons">home</i>Home
             </button>
         </a>
+
         @{
             ViewData["Title"] = "OverView";
         }
@@ -18,12 +19,12 @@
             <h3 class="text-center">Take a look at some examples of each Design photo gallery.</h3>
         </div>
         <ul class="nav nav-pills nav-pills-info" role="tablist" id="tablist">
-            <li>
-                <a asp-area="" asp-controller="Home" asp-action="Wedding">
-                    <i class="material-icons" role="tab" data-toggle="tab">wc</i>
-            Wedding Design
-                </a>
-            </li>
+             <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Wedding">
+                        <i class="material-icons" role="tab" data-toggle="tab">wc</i>
+                        Wedding Design
+                    </a>
+             </li>
 
             <li class="active">
                 <a asp-area="" asp-controller="Home" asp-action="Home">
@@ -31,12 +32,14 @@
                     Home Interior Design
                 </a>
             </li>
+
             <li>
                 <a asp-area="" asp-controller="Home" asp-action="Corporate">
                     <i class="fa fa-building-o" aria-hidden="true" role="tab" data-toggle="tab"></i>
                     Corporate Events Design
                 </a>
             </li>
+
         </ul>
     </div>
  </div>
