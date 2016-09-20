@@ -8,6 +8,23 @@
       "wwwroot/css/site.css"
     ]
   },
+
+  {
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "~/lib/material-kit-master/assets/css/material-kit.css"
+    ],
+    "outputFileName": "~/lib/material-kit-master/assets/css/material-kit.min.css"
+  },
+
+  {
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "~/lib/startbootstrap-the-big-picture-gh-pages/css/the-big-picture.css"
+    ],
+    "outputFileName": "~/lib/startbootstrap-the-big-picture-gh-pages/css/the-big-picture.min.css"
+  },
+
   {
     "outputFileName": "wwwroot/js/site.min.js",
     "inputFiles": [
@@ -18,7 +35,7 @@
       "enabled": true,
       "renameLocals": true
     },
-    // Optinally generate .map file
+    // Optionally generate .map file
     "sourceMap": false
   }
 ]
