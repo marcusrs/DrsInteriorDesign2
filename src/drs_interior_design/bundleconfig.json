@@ -26,6 +26,15 @@
   },
 
   {
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "~/lib/material-kit-master/assets/js/material-kit.js"
+    ],
+    "outputFileName": "~/lib/material-kit-master/assets/js/material-kit.min.js"
+  },
+
+
+  {
     "outputFileName": "wwwroot/js/site.min.js",
     "inputFiles": [
       "wwwroot/js/site.js"
