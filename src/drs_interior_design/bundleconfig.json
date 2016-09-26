@@ -12,9 +12,9 @@
   {
     // An array of relative input file paths. Globbing patterns supported
     "inputFiles": [
-      "~/lib/material-kit-master/assets/css/material-kit.css"
+      "~/lib/material-kit/assets/css/material-kit.css"
     ],
-    "outputFileName": "~/lib/material-kit-master/assets/css/material-kit.min.css"
+    "outputFileName": "~/lib/material-kit/assets/css/material-kit.min.css"
   },
 
   {
@@ -28,9 +28,9 @@
 
   {
     "inputFiles": [
-      "~/lib/material-kit-master/assets/js/material-kit.js"
+      "~/lib/material-kit/assets/js/material-kit.js"
     ],
-    "outputFileName": "~/lib/material-kit-master/assets/js/material-kit.min.js"
+    "outputFileName": "~/lib/material-kit/assets/js/material-kit.min.js"
   },
 
 
