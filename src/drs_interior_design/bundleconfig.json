@@ -12,14 +12,6 @@
   {
     // An array of relative input file paths. Globbing patterns supported
     "inputFiles": [
-      "~/lib/material-kit/assets/css/material-kit.css"
-    ],
-    "outputFileName": "~/lib/material-kit/assets/css/material-kit.min.css"
-  },
-
-  {
-    // An array of relative input file paths. Globbing patterns supported
-    "inputFiles": [
       "~/lib/startbootstrap-the-big-picture-gh-pages/css/the-big-picture.css"
     ],
     "outputFileName": "~/lib/startbootstrap-the-big-picture-gh-pages/css/the-big-picture.min.css"
@@ -32,8 +24,6 @@
     ],
     "outputFileName": "~/lib/material-kit/assets/js/material-kit.min.js"
   },
-
-
 
   {
     "inputFiles": [
