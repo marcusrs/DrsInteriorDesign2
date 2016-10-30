@@ -8,3 +8,5 @@ This is a project built with ASP.Net MVC Core using:
 4.material kit
 5.font awesome
 6.google fonts
+7.Hosted in Microsoft Azure
+*This project is solely created,developed and maintain by Marcus Shipman
