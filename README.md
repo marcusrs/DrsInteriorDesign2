@@ -17,4 +17,4 @@ This is a project built with ASP.Net MVC Core using:
 
 7.Hosted in Microsoft Azure
 
-*This project is solely created,developed and maintain by Marcus Shipman
+*This project is solely created,developed and maintain by Marcus Shipman  (aka MRS)
