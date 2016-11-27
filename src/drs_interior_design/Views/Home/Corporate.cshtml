@@ -3,7 +3,7 @@
 <div class="col-lg-12 animated fadeInDown">
     <div class="container" id="wed">
         @{
-            ViewData["Title"] = "Corporate Gallery";
+            ViewData["Title"] = "Corporate  Event  Gallery";
         }
         <h1 class="text-center">@ViewData["Title"]</h1>
         <h3 class="text-center">@ViewData["Message"]</h3>
@@ -15,9 +15,9 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Corporate Event Designs</h1>
-                </div>
+                @*<div class="col-lg-12">
+                    <h1 class="page-header">CorporateDesigns</h1>
+                </div>*@
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                     <a class="thumbnail" href="#">
                         <img class="img-responsive" src="http://placehold.it/400x300" alt="">
@@ -83,7 +83,7 @@
         </div>
         <a asp-area="" asp-controller="Home" asp-action="About">
             <button class="btn btn-info btn-round pull-right">
-                <i class="material-icons">home</i>Overview
+                <i class="fa fa-home"> Overview</i>
             </button>
         </a>
     </div>
