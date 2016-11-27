@@ -2,6 +2,11 @@
 
 <div class="col-lg-12 animated fadeInDown">
     <div class="container" id="wed">
+        <a asp-area="" asp-controller="Home" asp-action="About">
+            <button class="btn btn-info btn-round pull-right">
+                <i class="material-icons">home</i>Overview
+            </button>
+        </a>
         
         @{
             ViewData["Title"] = "Home Gallery";
@@ -82,10 +87,5 @@
             </div>
             <hr>
         </div>
-        <a asp-area="" asp-controller="Home" asp-action="About">
-            <button class="btn btn-info btn-round pull-right">
-                <i class="material-icons">home</i>Overview
-            </button>
-        </a>
     </div>
 </div>
