@@ -1,7 +1,7 @@
 ﻿
 
 
-					 /*  Full heading*/
+					                /******************* Front page background Image **************************/
 
 #dr {
 	background-image:url("../images/dana3.jpg");
@@ -10,7 +10,7 @@
 
 
 
-			   /*Company Name on front page*/
+			                     /*******************Company Name on front page*********************/
 
 .nametitle {
 	text-align: center;
@@ -36,7 +36,7 @@
 }
 
 
-						  /*Body*/
+						               /********************* Body ********************************/
 body {
 	padding-top: 50px;
 	padding-bottom: 20px;
@@ -58,7 +58,7 @@ textarea {
 }
 
 
-							  /* About page */
+							               /******************** About page **************************/
 
 #overview{
 
@@ -74,7 +74,7 @@ textarea {
 
 }
 
-					 /*  Overview wedding gallery page  */
+					              /***************  Overview wedding gallery page  **************************/
 
 #wed{
 
@@ -83,7 +83,7 @@ textarea {
 
 
 
-						  /* Contact */
+						              /************************ Contact **************************/
 .group:after {
   content: "";
   display: block;
@@ -230,12 +230,27 @@ span.wpcf7-list-item {
 	display: none
   }
 }
-                      
+                                 /************************ Error page **************************/                 
 
 
 
+#error{
+ 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
 
+.text{
 
+    color:white;
+}
 
 
 
